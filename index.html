@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <!-- Pasta CSS estava bugada e não reconhecia alguns estilos -->
+
+    <style>
+       html{
+            scroll-behavior: smooth;
+        }
+     .rodape{
+      display: flex;
+      justify-content:  space-between;
+      align-items: center;
+      padding-right: 20px;
+    }
+    .rodape a{
+      color: white;
+      text-decoration: none;
+    }
+    </style>
+    
+  
+    <title>Farmácias 24 Horas</title>
+  </head>
+  <body style="overflow-x: hidden; ">
+
+    <!-- ================================== Nav com Bootstrap ====================================-->
+
+    <section id="nav">
+      <span id="topo"></span>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+          <a class="navbar-brand font-weight-bold" href="#">Farm <span class="cor">24</span> Horas </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="textoNavbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#portfolio">Portfólio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#abertas">Abertas</a>
+              </li>
+              
+              <li class="nav-item active">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              Todas as Farmácias 24 Horas de Catanduva
+            </span>
+          </div>
+        </nav>
+    </section>
+
+    <section id="carousel">
+
+      <div class="row gamb">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner borda">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/car1.png">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Impotância do Plantão</h5>
+                  <p>É de extrama importância a saúde dos brasileiros o plantão de 24 horas!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://www.prosaude.org.br/wp-content/uploads/2019/02/15496507361-1.jpg" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="http://famesp.com.br/wp-content/uploads/2017/05/curso-tecnico-farmacia.jpg" alt="Primeiro Slide" alt="Terceiro Slide">
+                
+              </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+     
+    </section>
+
+    <section id="sobre" class="bg-info">
+      <div class="container">
+        <div class="row">
+          <div class="col"><h2 class="text-center">Nosso <span class="cor">Objetivo</span></h2>
+         
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="borda">
+              <h5>O foco é ajudar <span class="cor">você</span>!</h5>
+            <p>Já pensou acordar no meio da noite <br> passando mal e não saber 
+              onde fica a farmácia em <br> plantão mais próxima? </p>
+              <p>
+                Com esse site você não precisa se preucupar! <br> Nós mostramos, calculamos e traçamos a rota <br>
+            mais rápida para chegar na farmácia.
+              </p>
+              <br>
+             
+            </div>
+          
+          </div>
+          <div class="col-sm-6">
+            <img class="imgg img" src="https://t3.ftcdn.net/jpg/01/80/07/28/360_F_180072866_Lu1U9rSzW5bZplz0IJRWPR7aaDZNdqNp.jpg " alt="">
+          </div>
+        </div>
+        </div>
+        
+    </section>
+
+    <section  id="portfolio" >
+      <div class="container">
+        <div class="row">
+          <div class="col"><h2 class="text-center">Pessoas que Ultilizaram Nosso <span class="text-info">Serviço </span> </h2></div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4 text-center" >
+            <img class="depoi" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/1200px-Elon_Musk_Royal_Society_%28crop2%29.jpg" alt="">
+            <h4>Elon Musk</h4>
+            <p>Se não fosse por esse site, demoraria muito tempo para achar a farmácia de plantão mais proxima!</p>
+          </div>
+
+
+          <div class="col-sm-4 text-center">
+            <img class="depoi" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mark_Zuckerberg_F8_2018_Keynote_%28cropped_2%29.jpg/1200px-Mark_Zuckerberg_F8_2018_Keynote_%28cropped_2%29.jpg" alt="">
+            <h4>Mark Zuckerberg</h4>
+            <p>Se não fosse por esse site, demoraria muito tempo para achar a farmácia de plantão mais proxima!</p>
+          </div>
+
+          
+          <div class="col-sm-4 text-center">
+            <img class="depoi" src="https://media.gazetadopovo.com.br/2021/09/24153630/jair-bolsonaro-2.jpg" alt="">
+            <h4>
+              Jair Bolsonaro</h4>
+            <p>Se não fosse por esse site, demoraria muito tempo para achar a farmácia de plantão mais proxima!</p>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-5"></div>
+          <div class="col-sm">
+            <button type="button" class="btn btn-info"> <a href="comentario.php">Nos de um Feedback</a></button>
+          </div>
+          <div class="col-sm-4"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="abertas" class="bg-info">
+      <div class="container">
+        <div class="row">
+          <div class="col"><h2 class="text-center">Farmácias 24 Horas de Catanduva</h2></div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-5">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="https://www.drogarias.net/imgempresas/drogaria-sao-paulo-90946-4exO.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Drogaria São Paulo</h5>
+                <p class="card-text">Aberta 24 horas. Compre Remédios, Medicamentos Genéricos, Cosméticos e Higiene Pessoal. Entrega Rápida e Segura.
+                  <a href="https://www.drogariasaopaulo.com.br" target="_blank">Visitar</a>
+                </p>
+                <a href="farmacias/sp.html" class="btn btn-info">Rota Mais Rápida</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-5">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Droga Raia</h5>
+                <p class="card-text">Aberta 24 horas. Tudo o que você precisa está aqui. 
+                  Os Melhores Produtos para a Saúde, Beleza e Bem-Estar. Entrega Rápida e Segura. <a href="https://www.drogaraia.com.br/?gclid=Cj0KCQiAvqGcBhCJARIsAFQ5ke7-45fUpT5EXJd5tmAhz_FbrU26T-cJIAwaBFBk4JW4T032wUFU6OwaAjeQEALw_wcB" target="_blank">Visitar</a></p>
+                <a href="farmacias/raia.html" class="btn btn-info">Rota Mais Rápida</a> <br>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center font-weight-bold mt-5 mb-4">Entre em <span class="text-info">contato</span> conosco</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+              <p class="mt-2 mb-3 ml-5" >Caso você more na <span class="text-info">região</span>, e quer saber as farmácias de plantão de sua 
+                cidade.
+                Entre em contato conosco.</p>
+                <a href="contato.php" class="btn btn-info ml-5 fim">Nosso Contato</a> <br>
+          </div>
+          <div class="col-sm-6">
+            <img class="img ml-5"src="https://www.researchgate.net/publication/267202741/figure/fig3/AS:669386671153155@1536605627140/Figura-3-TESTE-1-a-Esquerda-rota-mais-curta-b-Direita-rota-mais-rapida.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <a href="#topo"><i class="fa-solid fa-arrow-up-long" style="position: absolute;left: 85%;margin-top: -80px; font-size: 20px;"></i></a>  
+    </section>
+
+    <footer id="rodape" class="bg-info " >
+      <div class="rodape">
+        <span class="navbar-text text-white">
+          Todas as Farmácias 24 Horas de Catanduva --- Feito por: Lucas Dalossa Lopes
+        </span>
+
+        <a href="admin/login.php">Adm</a>
+      </div>
+      
+      
+    </footer>
+    
+    
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/98283e91bc.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
